@@ -86,7 +86,7 @@
     cursor:pointer;
 }
 
-.pint_mock_icon {
+.pin_mock_icon {
     width: 50%;
 }
 
@@ -108,4 +108,14 @@
     overflow: hidden;
 }
 
+.pin_image{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.pin_image img{
+    max-height: 100%;
+}
