@@ -22,7 +22,6 @@
     overflow:hidden;
     display: flex;
     
-
     background-color: #FFFFFF;
 }
 
@@ -39,6 +38,8 @@
 #right_side {
     background-color: blue;
 }
+
+
 
 .pin_mock_icon_container {
     width: 32px;
@@ -58,14 +59,12 @@
 }
 
 .section1{
-    width:100%;
-    height:8%;
-
-    background-color: purple;
+width:100%;
+height: 8%;
+background-color: purple;
 }
 
 .section2{
-    padding:0px 10px;
     width: 100%;
     height: 80%;
     display:flex;
@@ -73,16 +72,43 @@
     justify-content: center;
     align-items: center;
 
+
     background-color: aquamarine;
 }
 
 .section3{
     width:100%;
     height: 12%;
+    display:flex;
     justify-content: center;
     align-items: center;
 
     background-color: firebrick;
-
 }
+
+#left_side .section1 .pin_mock_icon_container {
+    width:40px;
+    height:40px;
+
+    background-color: rgba(239,239,239,0);
+    transition-duration: 0.3s;
+}
+
+#left_side .section1 .pin_mock_icon_container:hover{
+    background-color: rgba(239,239,239,1);
+}
+
+#left_side .section2 #upload_img_label{
+    width:100%;
+    height: 100%;
+}
+
+#left_side .section2 #upload_img_label .upload_img_container{
+    width:100%;
+    height: 100%;
+
+    background-color: #EFEFEF;
+} 
+
+
 
